@@ -7,7 +7,7 @@ body{
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5){
 	body{
-		// background: white url("/img/bg@2x.png") top center;
+		// background:#e9f3f7 url("/img/bg@2x.png") top center;
 		background-size:10px 10px;
 	}
 }
