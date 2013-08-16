@@ -697,7 +697,8 @@ body.pageslide-open {
     z-index: 10; }
     /* line 35, ../sass/modules/_header.scss */
     .header .logo a, .header .logo a:visited {
-      color: white; }
+      color: white;
+      background: #323333 }
     /* line 38, ../sass/modules/_header.scss */
     .header .logo.image {
       position: absolute;
@@ -709,8 +710,7 @@ body.pageslide-open {
         width: 100%;
         background: no-repeat center center;
         font: 0/0 a;
-        text-shadow: none;
-        color: transparent; }
+        text-shadow: none; }
   /* line 52, ../sass/modules/_header.scss */
   .header .user-nav {
     float: right;
@@ -829,7 +829,7 @@ body.pageslide-open {
     	a.new {
     		background: #323333;}
     	a.best {
-    		background #323333;}
+    		background: #323333;}
     	a.digest {
     		background: #323333;}
     	a.admin {
