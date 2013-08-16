@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 24, ../sass/partials/_mixins.scss */
 .popover, .auth-buttons #login-buttons .accounts-dialog, .share-options {
   background: white;
-  border: 1px solid #f36c3d;
+  border: 1px solid #323333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -123,9 +123,9 @@ body {
 .outer-wrapper {
   position: relative; }
 
-/* line 17, ../sass/partials/_main.scss */
-.content-wrapper {
-  padding-bottom: 10px; }
+/* line 17, ../sass/partials/_main.scss*/
+/*.content-wrapper {
+  padding-bottom: 10px; }*/
 
 /* line 20, ../sass/partials/_main.scss */
 #spinner {
@@ -173,7 +173,7 @@ body {
 /* line 1, ../sass/partials/_typography.scss */
 body, textarea, input, button, input[type="submit"], input[type="button"] {
   font-family: "Open Sans", "Proxima Nova Soft", "proxima-nova-soft", "PT SANS", "Helvetica Neue", Helvetica, sans-serif;
-  color: #4a4444;
+  color: #323333;
   line-height: 1.6; }
 
 /* line 9, ../sass/partials/_typography.scss */
@@ -182,10 +182,10 @@ a {
   font-weight: bold; }
   /* line 12, ../sass/partials/_typography.scss */
   a:link, a:visited, a:active {
-    color: #a4a9ab; }
+    color: #323333; }
   /* line 15, ../sass/partials/_typography.scss */
   a:hover {
-    color: #f36c3d; }
+    color: #323333; }
 
 /* line 19, ../sass/partials/_typography.scss */
 h3 {
@@ -654,8 +654,8 @@ body.pageslide-open {
 
 /* line 10, ../sass/modules/_header.scss */
 .header {
-  background: #323333 url("/img/texture-light.png") top center;
-  background-color: #323333;
+  background: #323333;
+  opacity: 1;
   margin-bottom: 10px;
   height: 70px;
   position: relative;
@@ -682,7 +682,8 @@ body.pageslide-open {
     float: left;
     margin-left: 20px;
     position: relative;
-    z-index: 20; }
+    z-index: 20;
+    background: #323333; }
   /* line 25, ../sass/modules/_header.scss */
   .header .logo {
     position: absolute;
@@ -715,7 +716,8 @@ body.pageslide-open {
     float: right;
     margin-right: 10px;
     position: relative;
-    z-index: 20; }
+    z-index: 20;
+    background: #323333; }
 
 /* line 74, ../sass/modules/_header.scss */
 .auth-buttons {
@@ -736,10 +738,11 @@ body.pageslide-open {
     /* line 91, ../sass/modules/_header.scss */
     .auth-buttons #login-buttons a {
       text-decoration: none;
-      color: #4a4444; }
+      color: #323333; }
     /* line 95, ../sass/modules/_header.scss */
     .auth-buttons #login-buttons a.login-link-text {
       color: #fff;
+      background-color: #323333;
       font-weight: normal;
       display: inline-block;
       height: 26px; }
@@ -796,7 +799,7 @@ body.pageslide-open {
     padding-left: 4px;
     padding-right: 4px;
     margin-right: 10px;
-    background-color: #323333; }
+    background: #323333; }
     /* line 48, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .nav > li:first-child, .nav > li.first {
       padding-left: 0; }
@@ -819,14 +822,22 @@ body.pageslide-open {
       /* line 150, ../sass/modules/_header.scss */
       .nav > li > a.intercom em:after {
         content: ')'; }
+    	.site-nav {
+    		background: #323333;}
     	a.top {
-    		background-color: #323333;}
+    		background: #323333;}
     	a.new {
-    		background-color: #323333;}
+    		background: #323333;}
     	a.best {
-    		background-color: #323333;}
+    		background #323333;}
     	a.digest {
-    		background-color: #323333;}
+    		background: #323333;}
+    	a.admin {
+    		background: #323333;}
+    	a#login-name-link {
+    		background: #323333;}
+    	ul.nav {
+    		background: #323333;}
 
 /* line 1, ../sass/modules/_posts.scss */
 .empty-notice {
@@ -1526,7 +1537,7 @@ input[type="submit"], button, .button, .auth-buttons #login-buttons #login-butto
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
-  background: #f36c3d;
+  background: #63afab;
   color: white;
   text-align: center;
   display: block;
@@ -1540,7 +1551,7 @@ input[type="submit"], button, .button, .auth-buttons #login-buttons #login-butto
   font-weight: normal; }
   /* line 105, ../sass/modules/_forms.scss */
   input[type="submit"].disabled, button.disabled, .button.disabled, .auth-buttons #login-buttons .disabled#login-buttons-password, .btn.disabled {
-    background: #dfdbdb;
+    background: #323333;
     pointer-events: none; }
   /* line 109, ../sass/modules/_forms.scss */
   input[type="submit"]:link, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:visited, button:link, button:hover, button:active, button:visited, .button:link, .auth-buttons #login-buttons #login-buttons-password:link, .button:hover, .auth-buttons #login-buttons #login-buttons-password:hover, .button:active, .auth-buttons #login-buttons #login-buttons-password:active, .button:visited, .auth-buttons #login-buttons #login-buttons-password:visited, .btn:link, .btn:hover, .btn:active, .btn:visited {
@@ -1756,7 +1767,7 @@ table thead tr td {
     position: relative;
     display: block;
     margin-top: 10px;
-    background: #f36c3d;
+    background: #323333;
     color: white;
     height: 30px;
     width: 40px; }
